@@ -91,8 +91,27 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
     
-    test14();
+//    test14();
     
+    int a = -4312205;
+    
+    float value1 = 6.123456;
+    
+//    printf("%018d\n", a);
+//    printf("%+d\n", a);
+//    printf("%+d\r", a);
+//    printf("%+d\t", a);
+//    printf("%+d\t", a);
+//    printf("%+d\t", a);
+//
+//    printf("%+d\a", a);
+//    printf("%+d\a", a);
+//    printf("%+d\a", a);
+//    printf("%12.4f\n", value1);;
+    int m = 4, n = 5, i = 2, f = 3;
+    
+    printf("%*d\n", m, i);
+    printf("% *.* d\n", m, n, f);
     
     return 0;
 }

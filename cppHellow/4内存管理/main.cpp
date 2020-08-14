@@ -27,7 +27,12 @@ int main(int argc, const char * argv[]) {
     
 //    fun5();
     
-    fun6a();
+//    fun6a();
+    
+    double a = 9.01234567890123;
+    
+    printf("%f \n", a);
+    
     return 0;
 }
 
