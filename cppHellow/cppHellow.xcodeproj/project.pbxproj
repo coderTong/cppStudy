@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AC3209EE24F20F6A00CDD5B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3209ED24F20F6A00CDD5B4 /* main.cpp */; };
 		AC3209F924F2144F00CDD5B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3209F824F2144F00CDD5B4 /* main.cpp */; };
+		AC320A0424F2926C00CDD5B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC320A0324F2926C00CDD5B4 /* main.cpp */; };
+		AC320A0F24F2B1B000CDD5B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC320A0E24F2B1B000CDD5B4 /* main.cpp */; };
 		AC55DAE124D6C030001D028E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC55DAE024D6C030001D028E /* main.cpp */; };
 		ACAA70E924D84CD100BE4C58 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACAA70E824D84CD100BE4C58 /* main.cpp */; };
 		ACAA70F424D8F4B300BE4C58 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAA70F324D8F4B300BE4C58 /* main.c */; };
@@ -59,6 +61,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		AC3209F424F2144F00CDD5B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC3209FF24F2926C00CDD5B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC320A0A24F2B1B000CDD5B4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -389,6 +409,10 @@
 		AC3209ED24F20F6A00CDD5B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AC3209F624F2144F00CDD5B4 /* 38const修饰对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "38const修饰对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3209F824F2144F00CDD5B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC320A0124F2926C00CDD5B4 /* 39友元01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "39友元01"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC320A0324F2926C00CDD5B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC320A0C24F2B1B000CDD5B4 /* 40友元电视遥控器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "40友元电视遥控器"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC320A0E24F2B1B000CDD5B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AC55DADE24D6C030001D028E /* pointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pointer; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC55DAE024D6C030001D028E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ACAA70E624D84CD100BE4C58 /* 4内存管理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4内存管理"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -475,6 +499,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AC3209F324F2144F00CDD5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3209FE24F2926C00CDD5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC320A0924F2B1B000CDD5B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -743,6 +781,22 @@
 				AC3209F824F2144F00CDD5B4 /* main.cpp */,
 			);
 			path = "38const修饰对象";
+			sourceTree = "<group>";
+		};
+		AC320A0224F2926C00CDD5B4 /* 39友元01 */ = {
+			isa = PBXGroup;
+			children = (
+				AC320A0324F2926C00CDD5B4 /* main.cpp */,
+			);
+			path = "39友元01";
+			sourceTree = "<group>";
+		};
+		AC320A0D24F2B1B000CDD5B4 /* 40友元电视遥控器 */ = {
+			isa = PBXGroup;
+			children = (
+				AC320A0E24F2B1B000CDD5B4 /* main.cpp */,
+			);
+			path = "40友元电视遥控器";
 			sourceTree = "<group>";
 		};
 		AC55DADF24D6C030001D028E /* pointer */ = {
@@ -1052,6 +1106,8 @@
 				ACCD4E7824F16C2300383E53 /* 36成员变量和函数的存储 */,
 				AC3209EC24F20F6A00CDD5B4 /* 37const修饰成员函数 */,
 				AC3209F724F2144F00CDD5B4 /* 38const修饰对象 */,
+				AC320A0224F2926C00CDD5B4 /* 39友元01 */,
+				AC320A0D24F2B1B000CDD5B4 /* 40友元电视遥控器 */,
 				ACF1EA8624CA67DB00AB6E42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1096,6 +1152,8 @@
 				ACCD4E7724F16C2300383E53 /* 36成员变量和函数的存储 */,
 				AC3209EB24F20F6A00CDD5B4 /* 37const修饰成员函数 */,
 				AC3209F624F2144F00CDD5B4 /* 38const修饰对象 */,
+				AC320A0124F2926C00CDD5B4 /* 39友元01 */,
+				AC320A0C24F2B1B000CDD5B4 /* 40友元电视遥控器 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1153,6 +1211,40 @@
 			name = "38const修饰对象";
 			productName = "38const修饰对象";
 			productReference = AC3209F624F2144F00CDD5B4 /* 38const修饰对象 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC320A0024F2926C00CDD5B4 /* 39友元01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC320A0524F2926C00CDD5B4 /* Build configuration list for PBXNativeTarget "39友元01" */;
+			buildPhases = (
+				AC3209FD24F2926C00CDD5B4 /* Sources */,
+				AC3209FE24F2926C00CDD5B4 /* Frameworks */,
+				AC3209FF24F2926C00CDD5B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "39友元01";
+			productName = "39友元01";
+			productReference = AC320A0124F2926C00CDD5B4 /* 39友元01 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC320A0B24F2B1B000CDD5B4 /* 40友元电视遥控器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC320A1024F2B1B000CDD5B4 /* Build configuration list for PBXNativeTarget "40友元电视遥控器" */;
+			buildPhases = (
+				AC320A0824F2B1B000CDD5B4 /* Sources */,
+				AC320A0924F2B1B000CDD5B4 /* Frameworks */,
+				AC320A0A24F2B1B000CDD5B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "40友元电视遥控器";
+			productName = "40友元电视遥控器";
+			productReference = AC320A0C24F2B1B000CDD5B4 /* 40友元电视遥控器 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AC55DADD24D6C030001D028E /* pointer */ = {
@@ -1765,6 +1857,12 @@
 					AC3209F524F2144F00CDD5B4 = {
 						CreatedOnToolsVersion = 11.5;
 					};
+					AC320A0024F2926C00CDD5B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					AC320A0B24F2B1B000CDD5B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
 					AC55DADD24D6C030001D028E = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -1922,6 +2020,8 @@
 				ACCD4E7624F16C2300383E53 /* 36成员变量和函数的存储 */,
 				AC3209EA24F20F6A00CDD5B4 /* 37const修饰成员函数 */,
 				AC3209F524F2144F00CDD5B4 /* 38const修饰对象 */,
+				AC320A0024F2926C00CDD5B4 /* 39友元01 */,
+				AC320A0B24F2B1B000CDD5B4 /* 40友元电视遥控器 */,
 			);
 		};
 /* End PBXProject section */
@@ -1940,6 +2040,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC3209F924F2144F00CDD5B4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3209FD24F2926C00CDD5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC320A0424F2926C00CDD5B4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC320A0824F2B1B000CDD5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC320A0F24F2B1B000CDD5B4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2259,6 +2375,46 @@
 			name = Debug;
 		};
 		AC3209FC24F2144F00CDD5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC320A0624F2926C00CDD5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC320A0724F2926C00CDD5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC320A1124F2B1B000CDD5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC320A1224F2B1B000CDD5B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3094,6 +3250,24 @@
 			buildConfigurations = (
 				AC3209FB24F2144F00CDD5B4 /* Debug */,
 				AC3209FC24F2144F00CDD5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC320A0524F2926C00CDD5B4 /* Build configuration list for PBXNativeTarget "39友元01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC320A0624F2926C00CDD5B4 /* Debug */,
+				AC320A0724F2926C00CDD5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC320A1024F2B1B000CDD5B4 /* Build configuration list for PBXNativeTarget "40友元电视遥控器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC320A1124F2B1B000CDD5B4 /* Debug */,
+				AC320A1224F2B1B000CDD5B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
