@@ -11,6 +11,13 @@
 		AC3209F924F2144F00CDD5B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC3209F824F2144F00CDD5B4 /* main.cpp */; };
 		AC320A0424F2926C00CDD5B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC320A0324F2926C00CDD5B4 /* main.cpp */; };
 		AC320A0F24F2B1B000CDD5B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC320A0E24F2B1B000CDD5B4 /* main.cpp */; };
+		AC320A1A24F3543C00CDD5B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC320A1924F3543C00CDD5B4 /* main.cpp */; };
+		AC320A2024F3545500CDD5B4 /* MyArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC320A1E24F3545500CDD5B4 /* MyArray.cpp */; };
+		AC320A2824F3673700CDD5B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC320A2724F3673700CDD5B4 /* main.cpp */; };
+		AC320A3324F3761B00CDD5B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC320A3224F3761B00CDD5B4 /* main.cpp */; };
+		AC320A3E24F3E36200CDD5B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC320A3D24F3E36200CDD5B4 /* main.cpp */; };
+		AC320A4924F40A0600CDD5B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC320A4824F40A0600CDD5B4 /* main.cpp */; };
+		AC320A5424F40E1500CDD5B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC320A5324F40E1500CDD5B4 /* main.cpp */; };
 		AC55DAE124D6C030001D028E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC55DAE024D6C030001D028E /* main.cpp */; };
 		ACAA70E924D84CD100BE4C58 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACAA70E824D84CD100BE4C58 /* main.cpp */; };
 		ACAA70F424D8F4B300BE4C58 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAA70F324D8F4B300BE4C58 /* main.c */; };
@@ -79,6 +86,60 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		AC320A0A24F2B1B000CDD5B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC320A1524F3543C00CDD5B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC320A2324F3673700CDD5B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC320A2E24F3761A00CDD5B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC320A3924F3E36200CDD5B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC320A4424F40A0600CDD5B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC320A4F24F40E1500CDD5B4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -413,6 +474,20 @@
 		AC320A0324F2926C00CDD5B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AC320A0C24F2B1B000CDD5B4 /* 40友元电视遥控器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "40友元电视遥控器"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC320A0E24F2B1B000CDD5B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC320A1724F3543C00CDD5B4 /* 41数组类 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "41数组类"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC320A1924F3543C00CDD5B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC320A1E24F3545500CDD5B4 /* MyArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyArray.cpp; sourceTree = "<group>"; };
+		AC320A1F24F3545500CDD5B4 /* MyArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyArray.hpp; sourceTree = "<group>"; };
+		AC320A2524F3673700CDD5B4 /* 42运算符重载和友元函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "42运算符重载和友元函数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC320A2724F3673700CDD5B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC320A3024F3761A00CDD5B4 /* 43加加减减运算符重载 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "43加加减减运算符重载"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC320A3224F3761B00CDD5B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC320A3B24F3E36200CDD5B4 /* 44赋值运算符重载 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "44赋值运算符重载"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC320A3D24F3E36200CDD5B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC320A4624F40A0600CDD5B4 /* 45赋值运算符2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "45赋值运算符2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC320A4824F40A0600CDD5B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC320A5124F40E1500CDD5B4 /* 46指针运算符重载 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "46指针运算符重载"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC320A5324F40E1500CDD5B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AC55DADE24D6C030001D028E /* pointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pointer; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC55DAE024D6C030001D028E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ACAA70E624D84CD100BE4C58 /* 4内存管理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4内存管理"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -513,6 +588,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AC320A0924F2B1B000CDD5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC320A1424F3543C00CDD5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC320A2224F3673700CDD5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC320A2D24F3761A00CDD5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC320A3824F3E36200CDD5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC320A4324F40A0600CDD5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC320A4E24F40E1500CDD5B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -797,6 +914,56 @@
 				AC320A0E24F2B1B000CDD5B4 /* main.cpp */,
 			);
 			path = "40友元电视遥控器";
+			sourceTree = "<group>";
+		};
+		AC320A1824F3543C00CDD5B4 /* 41数组类 */ = {
+			isa = PBXGroup;
+			children = (
+				AC320A1924F3543C00CDD5B4 /* main.cpp */,
+				AC320A1F24F3545500CDD5B4 /* MyArray.hpp */,
+				AC320A1E24F3545500CDD5B4 /* MyArray.cpp */,
+			);
+			path = "41数组类";
+			sourceTree = "<group>";
+		};
+		AC320A2624F3673700CDD5B4 /* 42运算符重载和友元函数 */ = {
+			isa = PBXGroup;
+			children = (
+				AC320A2724F3673700CDD5B4 /* main.cpp */,
+			);
+			path = "42运算符重载和友元函数";
+			sourceTree = "<group>";
+		};
+		AC320A3124F3761B00CDD5B4 /* 43加加减减运算符重载 */ = {
+			isa = PBXGroup;
+			children = (
+				AC320A3224F3761B00CDD5B4 /* main.cpp */,
+			);
+			path = "43加加减减运算符重载";
+			sourceTree = "<group>";
+		};
+		AC320A3C24F3E36200CDD5B4 /* 44赋值运算符重载 */ = {
+			isa = PBXGroup;
+			children = (
+				AC320A3D24F3E36200CDD5B4 /* main.cpp */,
+			);
+			path = "44赋值运算符重载";
+			sourceTree = "<group>";
+		};
+		AC320A4724F40A0600CDD5B4 /* 45赋值运算符2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC320A4824F40A0600CDD5B4 /* main.cpp */,
+			);
+			path = "45赋值运算符2";
+			sourceTree = "<group>";
+		};
+		AC320A5224F40E1500CDD5B4 /* 46指针运算符重载 */ = {
+			isa = PBXGroup;
+			children = (
+				AC320A5324F40E1500CDD5B4 /* main.cpp */,
+			);
+			path = "46指针运算符重载";
 			sourceTree = "<group>";
 		};
 		AC55DADF24D6C030001D028E /* pointer */ = {
@@ -1108,6 +1275,12 @@
 				AC3209F724F2144F00CDD5B4 /* 38const修饰对象 */,
 				AC320A0224F2926C00CDD5B4 /* 39友元01 */,
 				AC320A0D24F2B1B000CDD5B4 /* 40友元电视遥控器 */,
+				AC320A1824F3543C00CDD5B4 /* 41数组类 */,
+				AC320A2624F3673700CDD5B4 /* 42运算符重载和友元函数 */,
+				AC320A3124F3761B00CDD5B4 /* 43加加减减运算符重载 */,
+				AC320A3C24F3E36200CDD5B4 /* 44赋值运算符重载 */,
+				AC320A4724F40A0600CDD5B4 /* 45赋值运算符2 */,
+				AC320A5224F40E1500CDD5B4 /* 46指针运算符重载 */,
 				ACF1EA8624CA67DB00AB6E42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1154,6 +1327,12 @@
 				AC3209F624F2144F00CDD5B4 /* 38const修饰对象 */,
 				AC320A0124F2926C00CDD5B4 /* 39友元01 */,
 				AC320A0C24F2B1B000CDD5B4 /* 40友元电视遥控器 */,
+				AC320A1724F3543C00CDD5B4 /* 41数组类 */,
+				AC320A2524F3673700CDD5B4 /* 42运算符重载和友元函数 */,
+				AC320A3024F3761A00CDD5B4 /* 43加加减减运算符重载 */,
+				AC320A3B24F3E36200CDD5B4 /* 44赋值运算符重载 */,
+				AC320A4624F40A0600CDD5B4 /* 45赋值运算符2 */,
+				AC320A5124F40E1500CDD5B4 /* 46指针运算符重载 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1245,6 +1424,108 @@
 			name = "40友元电视遥控器";
 			productName = "40友元电视遥控器";
 			productReference = AC320A0C24F2B1B000CDD5B4 /* 40友元电视遥控器 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC320A1624F3543C00CDD5B4 /* 41数组类 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC320A1D24F3543C00CDD5B4 /* Build configuration list for PBXNativeTarget "41数组类" */;
+			buildPhases = (
+				AC320A1324F3543C00CDD5B4 /* Sources */,
+				AC320A1424F3543C00CDD5B4 /* Frameworks */,
+				AC320A1524F3543C00CDD5B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "41数组类";
+			productName = "41数组类";
+			productReference = AC320A1724F3543C00CDD5B4 /* 41数组类 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC320A2424F3673700CDD5B4 /* 42运算符重载和友元函数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC320A2924F3673700CDD5B4 /* Build configuration list for PBXNativeTarget "42运算符重载和友元函数" */;
+			buildPhases = (
+				AC320A2124F3673700CDD5B4 /* Sources */,
+				AC320A2224F3673700CDD5B4 /* Frameworks */,
+				AC320A2324F3673700CDD5B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "42运算符重载和友元函数";
+			productName = "42运算符重载和友元函数";
+			productReference = AC320A2524F3673700CDD5B4 /* 42运算符重载和友元函数 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC320A2F24F3761A00CDD5B4 /* 43加加减减运算符重载 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC320A3424F3761B00CDD5B4 /* Build configuration list for PBXNativeTarget "43加加减减运算符重载" */;
+			buildPhases = (
+				AC320A2C24F3761A00CDD5B4 /* Sources */,
+				AC320A2D24F3761A00CDD5B4 /* Frameworks */,
+				AC320A2E24F3761A00CDD5B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "43加加减减运算符重载";
+			productName = "43加加减减运算符重载";
+			productReference = AC320A3024F3761A00CDD5B4 /* 43加加减减运算符重载 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC320A3A24F3E36200CDD5B4 /* 44赋值运算符重载 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC320A3F24F3E36200CDD5B4 /* Build configuration list for PBXNativeTarget "44赋值运算符重载" */;
+			buildPhases = (
+				AC320A3724F3E36200CDD5B4 /* Sources */,
+				AC320A3824F3E36200CDD5B4 /* Frameworks */,
+				AC320A3924F3E36200CDD5B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "44赋值运算符重载";
+			productName = "44赋值运算符重载";
+			productReference = AC320A3B24F3E36200CDD5B4 /* 44赋值运算符重载 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC320A4524F40A0600CDD5B4 /* 45赋值运算符2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC320A4A24F40A0600CDD5B4 /* Build configuration list for PBXNativeTarget "45赋值运算符2" */;
+			buildPhases = (
+				AC320A4224F40A0600CDD5B4 /* Sources */,
+				AC320A4324F40A0600CDD5B4 /* Frameworks */,
+				AC320A4424F40A0600CDD5B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "45赋值运算符2";
+			productName = "45赋值运算符2";
+			productReference = AC320A4624F40A0600CDD5B4 /* 45赋值运算符2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC320A5024F40E1500CDD5B4 /* 46指针运算符重载 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC320A5524F40E1500CDD5B4 /* Build configuration list for PBXNativeTarget "46指针运算符重载" */;
+			buildPhases = (
+				AC320A4D24F40E1500CDD5B4 /* Sources */,
+				AC320A4E24F40E1500CDD5B4 /* Frameworks */,
+				AC320A4F24F40E1500CDD5B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "46指针运算符重载";
+			productName = "46指针运算符重载";
+			productReference = AC320A5124F40E1500CDD5B4 /* 46指针运算符重载 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AC55DADD24D6C030001D028E /* pointer */ = {
@@ -1863,6 +2144,24 @@
 					AC320A0B24F2B1B000CDD5B4 = {
 						CreatedOnToolsVersion = 11.5;
 					};
+					AC320A1624F3543C00CDD5B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					AC320A2424F3673700CDD5B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					AC320A2F24F3761A00CDD5B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					AC320A3A24F3E36200CDD5B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					AC320A4524F40A0600CDD5B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					AC320A5024F40E1500CDD5B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
 					AC55DADD24D6C030001D028E = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -2022,6 +2321,12 @@
 				AC3209F524F2144F00CDD5B4 /* 38const修饰对象 */,
 				AC320A0024F2926C00CDD5B4 /* 39友元01 */,
 				AC320A0B24F2B1B000CDD5B4 /* 40友元电视遥控器 */,
+				AC320A1624F3543C00CDD5B4 /* 41数组类 */,
+				AC320A2424F3673700CDD5B4 /* 42运算符重载和友元函数 */,
+				AC320A2F24F3761A00CDD5B4 /* 43加加减减运算符重载 */,
+				AC320A3A24F3E36200CDD5B4 /* 44赋值运算符重载 */,
+				AC320A4524F40A0600CDD5B4 /* 45赋值运算符2 */,
+				AC320A5024F40E1500CDD5B4 /* 46指针运算符重载 */,
 			);
 		};
 /* End PBXProject section */
@@ -2056,6 +2361,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC320A0F24F2B1B000CDD5B4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC320A1324F3543C00CDD5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC320A1A24F3543C00CDD5B4 /* main.cpp in Sources */,
+				AC320A2024F3545500CDD5B4 /* MyArray.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC320A2124F3673700CDD5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC320A2824F3673700CDD5B4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC320A2C24F3761A00CDD5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC320A3324F3761B00CDD5B4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC320A3724F3E36200CDD5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC320A3E24F3E36200CDD5B4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC320A4224F40A0600CDD5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC320A4924F40A0600CDD5B4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC320A4D24F40E1500CDD5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC320A5424F40E1500CDD5B4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2415,6 +2769,126 @@
 			name = Debug;
 		};
 		AC320A1224F2B1B000CDD5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC320A1B24F3543C00CDD5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC320A1C24F3543C00CDD5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC320A2A24F3673700CDD5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC320A2B24F3673700CDD5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC320A3524F3761B00CDD5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC320A3624F3761B00CDD5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC320A4024F3E36200CDD5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC320A4124F3E36200CDD5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC320A4B24F40A0600CDD5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC320A4C24F40A0600CDD5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC320A5624F40E1500CDD5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC320A5724F40E1500CDD5B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3268,6 +3742,60 @@
 			buildConfigurations = (
 				AC320A1124F2B1B000CDD5B4 /* Debug */,
 				AC320A1224F2B1B000CDD5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC320A1D24F3543C00CDD5B4 /* Build configuration list for PBXNativeTarget "41数组类" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC320A1B24F3543C00CDD5B4 /* Debug */,
+				AC320A1C24F3543C00CDD5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC320A2924F3673700CDD5B4 /* Build configuration list for PBXNativeTarget "42运算符重载和友元函数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC320A2A24F3673700CDD5B4 /* Debug */,
+				AC320A2B24F3673700CDD5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC320A3424F3761B00CDD5B4 /* Build configuration list for PBXNativeTarget "43加加减减运算符重载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC320A3524F3761B00CDD5B4 /* Debug */,
+				AC320A3624F3761B00CDD5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC320A3F24F3E36200CDD5B4 /* Build configuration list for PBXNativeTarget "44赋值运算符重载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC320A4024F3E36200CDD5B4 /* Debug */,
+				AC320A4124F3E36200CDD5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC320A4A24F40A0600CDD5B4 /* Build configuration list for PBXNativeTarget "45赋值运算符2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC320A4B24F40A0600CDD5B4 /* Debug */,
+				AC320A4C24F40A0600CDD5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC320A5524F40E1500CDD5B4 /* Build configuration list for PBXNativeTarget "46指针运算符重载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC320A5624F40E1500CDD5B4 /* Debug */,
+				AC320A5724F40E1500CDD5B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
