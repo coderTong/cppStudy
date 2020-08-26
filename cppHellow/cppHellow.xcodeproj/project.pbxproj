@@ -52,6 +52,8 @@
 		ACE818C424F01DDE00F957CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACE818C324F01DDE00F957CC /* main.cpp */; };
 		ACE818CF24F01FEF00F957CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACE818CE24F01FEF00F957CC /* main.cpp */; };
 		ACE818DA24F0287600F957CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACE818D924F0287600F957CC /* main.cpp */; };
+		ACEAD4FC24F6A98A002D4263 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACEAD4FB24F6A98A002D4263 /* main.cpp */; };
+		ACEAD50224F6A9F9002D4263 /* MyString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACEAD50024F6A9F9002D4263 /* MyString.cpp */; };
 		ACF1EA8924CA67DB00AB6E42 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACF1EA8824CA67DB00AB6E42 /* main.cpp */; };
 		ACF1EA9124CA7CB800AB6E42 /* NameTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACF1EA8F24CA7CB800AB6E42 /* NameTest.cpp */; };
 		ACF1EA9924CB087100AB6E42 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACF1EA9824CB087100AB6E42 /* main.cpp */; };
@@ -445,6 +447,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ACEAD4F724F6A98A002D4263 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		ACF1EA8324CA67DA00AB6E42 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -557,6 +568,10 @@
 		ACE818CE24F01FEF00F957CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ACE818D724F0287600F957CC /* 27explicit关键字 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "27explicit关键字"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE818D924F0287600F957CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ACEAD4F924F6A98A002D4263 /* 47字符串类封装 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "47字符串类封装"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEAD4FB24F6A98A002D4263 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ACEAD50024F6A9F9002D4263 /* MyString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyString.cpp; sourceTree = "<group>"; };
+		ACEAD50124F6A9F9002D4263 /* MyString.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyString.hpp; sourceTree = "<group>"; };
 		ACF1EA8524CA67DB00AB6E42 /* cppHellow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cppHellow; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF1EA8824CA67DB00AB6E42 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ACF1EA8F24CA7CB800AB6E42 /* NameTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NameTest.cpp; sourceTree = "<group>"; };
@@ -861,6 +876,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ACE818D424F0287600F957CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEAD4F624F6A98A002D4263 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1233,6 +1255,16 @@
 			path = "27explicit关键字";
 			sourceTree = "<group>";
 		};
+		ACEAD4FA24F6A98A002D4263 /* 47字符串类封装 */ = {
+			isa = PBXGroup;
+			children = (
+				ACEAD4FB24F6A98A002D4263 /* main.cpp */,
+				ACEAD50124F6A9F9002D4263 /* MyString.hpp */,
+				ACEAD50024F6A9F9002D4263 /* MyString.cpp */,
+			);
+			path = "47字符串类封装";
+			sourceTree = "<group>";
+		};
 		ACF1EA7C24CA67DA00AB6E42 = {
 			isa = PBXGroup;
 			children = (
@@ -1281,6 +1313,7 @@
 				AC320A3C24F3E36200CDD5B4 /* 44赋值运算符重载 */,
 				AC320A4724F40A0600CDD5B4 /* 45赋值运算符2 */,
 				AC320A5224F40E1500CDD5B4 /* 46指针运算符重载 */,
+				ACEAD4FA24F6A98A002D4263 /* 47字符串类封装 */,
 				ACF1EA8624CA67DB00AB6E42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1333,6 +1366,7 @@
 				AC320A3B24F3E36200CDD5B4 /* 44赋值运算符重载 */,
 				AC320A4624F40A0600CDD5B4 /* 45赋值运算符2 */,
 				AC320A5124F40E1500CDD5B4 /* 46指针运算符重载 */,
+				ACEAD4F924F6A98A002D4263 /* 47字符串类封装 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2089,6 +2123,23 @@
 			productReference = ACE818D724F0287600F957CC /* 27explicit关键字 */;
 			productType = "com.apple.product-type.tool";
 		};
+		ACEAD4F824F6A98A002D4263 /* 47字符串类封装 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEAD4FF24F6A98A002D4263 /* Build configuration list for PBXNativeTarget "47字符串类封装" */;
+			buildPhases = (
+				ACEAD4F524F6A98A002D4263 /* Sources */,
+				ACEAD4F624F6A98A002D4263 /* Frameworks */,
+				ACEAD4F724F6A98A002D4263 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "47字符串类封装";
+			productName = "47字符串类封装";
+			productReference = ACEAD4F924F6A98A002D4263 /* 47字符串类封装 */;
+			productType = "com.apple.product-type.tool";
+		};
 		ACF1EA8424CA67DA00AB6E42 /* cppHellow */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACF1EA8C24CA67DB00AB6E42 /* Build configuration list for PBXNativeTarget "cppHellow" */;
@@ -2261,6 +2312,9 @@
 					ACE818D624F0287600F957CC = {
 						CreatedOnToolsVersion = 11.5;
 					};
+					ACEAD4F824F6A98A002D4263 = {
+						CreatedOnToolsVersion = 11.5;
+					};
 					ACF1EA8424CA67DA00AB6E42 = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -2327,6 +2381,7 @@
 				AC320A3A24F3E36200CDD5B4 /* 44赋值运算符重载 */,
 				AC320A4524F40A0600CDD5B4 /* 45赋值运算符2 */,
 				AC320A5024F40E1500CDD5B4 /* 46指针运算符重载 */,
+				ACEAD4F824F6A98A002D4263 /* 47字符串类封装 */,
 			);
 		};
 /* End PBXProject section */
@@ -2675,6 +2730,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACE818DA24F0287600F957CC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEAD4F524F6A98A002D4263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEAD50224F6A9F9002D4263 /* MyString.cpp in Sources */,
+				ACEAD4FC24F6A98A002D4263 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3558,6 +3622,26 @@
 			};
 			name = Release;
 		};
+		ACEAD4FD24F6A98A002D4263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACEAD4FE24F6A98A002D4263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		ACF1EA8A24CA67DB00AB6E42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4093,6 +4177,15 @@
 			buildConfigurations = (
 				ACE818DC24F0287600F957CC /* Debug */,
 				ACE818DD24F0287600F957CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEAD4FF24F6A98A002D4263 /* Build configuration list for PBXNativeTarget "47字符串类封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEAD4FD24F6A98A002D4263 /* Debug */,
+				ACEAD4FE24F6A98A002D4263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
