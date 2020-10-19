@@ -4,7 +4,11 @@
 //
 //  Created by codew on 8/22/20.
 //  Copyright © 2020 codertom. All rights reserved.
-//
+/**
+ 
+ ADD: 2020年10月19日10:49:56
+ C++提供了关键字explicit，禁止通过构造函数进行的隐式转换。声明为explicit的构造函数不能在隐式转换中使用。
+ */
 
 #include <iostream>
 
