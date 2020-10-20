@@ -34,6 +34,16 @@
 			<key>orderHint</key>
 			<integer>103</integer>
 		</dict>
+		<key>105文件读写2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>104</integer>
+		</dict>
+		<key>106二进制文件读写.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>105</integer>
+		</dict>
 		<key>10cpp对c的扩展.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
