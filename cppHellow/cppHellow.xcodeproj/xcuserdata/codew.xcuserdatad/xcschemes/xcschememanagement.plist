@@ -9,6 +9,31 @@
 			<key>orderHint</key>
 			<integer>31</integer>
 		</dict>
+		<key>100标准输入流.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>99</integer>
+		</dict>
+		<key>101字符输出.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>100</integer>
+		</dict>
+		<key>102格式化输出.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>101</integer>
+		</dict>
+		<key>103文件读写.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>102</integer>
+		</dict>
+		<key>104对二进制文件的读写操作.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>103</integer>
+		</dict>
 		<key>10cpp对c的扩展.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

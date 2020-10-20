@@ -32,6 +32,11 @@
 		AC343B17253DEC6F00263B66 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC343B16253DEC6F00263B66 /* main.cpp */; };
 		AC343B83253DEEDF00263B66 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC343B82253DEEDF00263B66 /* main.cpp */; };
 		AC343BF0253DF05100263B66 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC343BEF253DF05100263B66 /* main.cpp */; };
+		AC343C5E253E662F00263B66 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC343C5D253E662F00263B66 /* main.cpp */; };
+		AC343CCD253E700200263B66 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC343CCC253E700200263B66 /* main.cpp */; };
+		AC343D3D253E75D300263B66 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC343D3C253E75D300263B66 /* main.cpp */; };
+		AC343DAE253E794500263B66 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC343DAD253E794500263B66 /* main.cpp */; };
+		AC343E20253E81ED00263B66 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC343E1F253E81ED00263B66 /* main.cpp */; };
 		AC55DAE124D6C030001D028E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC55DAE024D6C030001D028E /* main.cpp */; };
 		ACAA70E924D84CD100BE4C58 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACAA70E824D84CD100BE4C58 /* main.cpp */; };
 		ACAA70F424D8F4B300BE4C58 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAA70F324D8F4B300BE4C58 /* main.c */; };
@@ -321,6 +326,51 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		AC343BEB253DF05100263B66 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC343C59253E662E00263B66 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC343CC8253E700200263B66 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC343D38253E75D200263B66 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC343DA9253E794500263B66 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC343E1B253E81ED00263B66 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1057,6 +1107,16 @@
 		AC343B82253DEEDF00263B66 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AC343BED253DF05100263B66 /* 99编写自己的异常类 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "99编写自己的异常类"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC343BEF253DF05100263B66 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC343C5B253E662E00263B66 /* 100标准输入流 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "100标准输入流"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC343C5D253E662F00263B66 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC343CCA253E700200263B66 /* 101字符输出 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "101字符输出"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC343CCC253E700200263B66 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC343D3A253E75D200263B66 /* 102格式化输出 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "102格式化输出"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC343D3C253E75D300263B66 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC343DAB253E794500263B66 /* 103文件读写 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "103文件读写"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC343DAD253E794500263B66 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC343E1D253E81ED00263B66 /* 104对二进制文件的读写操作 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "104对二进制文件的读写操作"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC343E1F253E81ED00263B66 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AC55DADE24D6C030001D028E /* pointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pointer; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC55DAE024D6C030001D028E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ACAA70E624D84CD100BE4C58 /* 4内存管理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4内存管理"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1380,6 +1440,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AC343BEA253DF05100263B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC343C58253E662E00263B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC343CC7253E700200263B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC343D37253E75D200263B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC343DA8253E794500263B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC343E1A253E81ED00263B66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2108,6 +2203,46 @@
 			path = "99编写自己的异常类";
 			sourceTree = "<group>";
 		};
+		AC343C5C253E662F00263B66 /* 100标准输入流 */ = {
+			isa = PBXGroup;
+			children = (
+				AC343C5D253E662F00263B66 /* main.cpp */,
+			);
+			path = "100标准输入流";
+			sourceTree = "<group>";
+		};
+		AC343CCB253E700200263B66 /* 101字符输出 */ = {
+			isa = PBXGroup;
+			children = (
+				AC343CCC253E700200263B66 /* main.cpp */,
+			);
+			path = "101字符输出";
+			sourceTree = "<group>";
+		};
+		AC343D3B253E75D200263B66 /* 102格式化输出 */ = {
+			isa = PBXGroup;
+			children = (
+				AC343D3C253E75D300263B66 /* main.cpp */,
+			);
+			path = "102格式化输出";
+			sourceTree = "<group>";
+		};
+		AC343DAC253E794500263B66 /* 103文件读写 */ = {
+			isa = PBXGroup;
+			children = (
+				AC343DAD253E794500263B66 /* main.cpp */,
+			);
+			path = "103文件读写";
+			sourceTree = "<group>";
+		};
+		AC343E1E253E81ED00263B66 /* 104对二进制文件的读写操作 */ = {
+			isa = PBXGroup;
+			children = (
+				AC343E1F253E81ED00263B66 /* main.cpp */,
+			);
+			path = "104对二进制文件的读写操作";
+			sourceTree = "<group>";
+		};
 		AC55DADF24D6C030001D028E /* pointer */ = {
 			isa = PBXGroup;
 			children = (
@@ -2800,6 +2935,11 @@
 				AC343B15253DEC6F00263B66 /* 97异常的多态使用 */,
 				AC343B81253DEEDF00263B66 /* 98标准异常库 */,
 				AC343BEE253DF05100263B66 /* 99编写自己的异常类 */,
+				AC343C5C253E662F00263B66 /* 100标准输入流 */,
+				AC343CCB253E700200263B66 /* 101字符输出 */,
+				AC343D3B253E75D200263B66 /* 102格式化输出 */,
+				AC343DAC253E794500263B66 /* 103文件读写 */,
+				AC343E1E253E81ED00263B66 /* 104对二进制文件的读写操作 */,
 				ACF1EA8624CA67DB00AB6E42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2906,6 +3046,11 @@
 				AC343B14253DEC6F00263B66 /* 97异常的多态使用 */,
 				AC343B80253DEEDF00263B66 /* 98标准异常库 */,
 				AC343BED253DF05100263B66 /* 99编写自己的异常类 */,
+				AC343C5B253E662E00263B66 /* 100标准输入流 */,
+				AC343CCA253E700200263B66 /* 101字符输出 */,
+				AC343D3A253E75D200263B66 /* 102格式化输出 */,
+				AC343DAB253E794500263B66 /* 103文件读写 */,
+				AC343E1D253E81ED00263B66 /* 104对二进制文件的读写操作 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3337,6 +3482,91 @@
 			name = "99编写自己的异常类";
 			productName = "99编写自己的异常类";
 			productReference = AC343BED253DF05100263B66 /* 99编写自己的异常类 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC343C5A253E662E00263B66 /* 100标准输入流 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC343C5F253E662F00263B66 /* Build configuration list for PBXNativeTarget "100标准输入流" */;
+			buildPhases = (
+				AC343C57253E662E00263B66 /* Sources */,
+				AC343C58253E662E00263B66 /* Frameworks */,
+				AC343C59253E662E00263B66 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "100标准输入流";
+			productName = "100标准输入流";
+			productReference = AC343C5B253E662E00263B66 /* 100标准输入流 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC343CC9253E700200263B66 /* 101字符输出 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC343CCE253E700200263B66 /* Build configuration list for PBXNativeTarget "101字符输出" */;
+			buildPhases = (
+				AC343CC6253E700200263B66 /* Sources */,
+				AC343CC7253E700200263B66 /* Frameworks */,
+				AC343CC8253E700200263B66 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "101字符输出";
+			productName = "101字符输出";
+			productReference = AC343CCA253E700200263B66 /* 101字符输出 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC343D39253E75D200263B66 /* 102格式化输出 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC343D3E253E75D300263B66 /* Build configuration list for PBXNativeTarget "102格式化输出" */;
+			buildPhases = (
+				AC343D36253E75D200263B66 /* Sources */,
+				AC343D37253E75D200263B66 /* Frameworks */,
+				AC343D38253E75D200263B66 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "102格式化输出";
+			productName = "102格式化输出";
+			productReference = AC343D3A253E75D200263B66 /* 102格式化输出 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC343DAA253E794500263B66 /* 103文件读写 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC343DAF253E794600263B66 /* Build configuration list for PBXNativeTarget "103文件读写" */;
+			buildPhases = (
+				AC343DA7253E794500263B66 /* Sources */,
+				AC343DA8253E794500263B66 /* Frameworks */,
+				AC343DA9253E794500263B66 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "103文件读写";
+			productName = "103文件读写";
+			productReference = AC343DAB253E794500263B66 /* 103文件读写 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC343E1C253E81ED00263B66 /* 104对二进制文件的读写操作 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC343E21253E81ED00263B66 /* Build configuration list for PBXNativeTarget "104对二进制文件的读写操作" */;
+			buildPhases = (
+				AC343E19253E81ED00263B66 /* Sources */,
+				AC343E1A253E81ED00263B66 /* Frameworks */,
+				AC343E1B253E81ED00263B66 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "104对二进制文件的读写操作";
+			productName = "104对二进制文件的读写操作";
+			productReference = AC343E1D253E81ED00263B66 /* 104对二进制文件的读写操作 */;
 			productType = "com.apple.product-type.tool";
 		};
 		AC55DADD24D6C030001D028E /* pointer */ = {
@@ -4695,6 +4925,21 @@
 					AC343BEC253DF05100263B66 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					AC343C5A253E662E00263B66 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					AC343CC9253E700200263B66 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					AC343D39253E75D200263B66 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					AC343DAA253E794500263B66 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					AC343E1C253E81ED00263B66 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					AC55DADD24D6C030001D028E = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -5034,6 +5279,11 @@
 				AC343B13253DEC6F00263B66 /* 97异常的多态使用 */,
 				AC343B7F253DEEDF00263B66 /* 98标准异常库 */,
 				AC343BEC253DF05100263B66 /* 99编写自己的异常类 */,
+				AC343C5A253E662E00263B66 /* 100标准输入流 */,
+				AC343CC9253E700200263B66 /* 101字符输出 */,
+				AC343D39253E75D200263B66 /* 102格式化输出 */,
+				AC343DAA253E794500263B66 /* 103文件读写 */,
+				AC343E1C253E81ED00263B66 /* 104对二进制文件的读写操作 */,
 			);
 		};
 /* End PBXProject section */
@@ -5229,6 +5479,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC343BF0253DF05100263B66 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC343C57253E662E00263B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC343C5E253E662F00263B66 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC343CC6253E700200263B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC343CCD253E700200263B66 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC343D36253E75D200263B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC343D3D253E75D300263B66 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC343DA7253E794500263B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC343DAE253E794500263B66 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC343E19253E81ED00263B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC343E20253E81ED00263B66 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6336,6 +6626,116 @@
 			name = Debug;
 		};
 		AC343BF3253DF05100263B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC343C60253E662F00263B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC343C61253E662F00263B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC343CCF253E700200263B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC343CD0253E700200263B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC343D3F253E75D300263B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC343D40253E75D300263B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC343DB0253E794600263B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC343DB1253E794600263B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC343E22253E81ED00263B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC343E23253E81ED00263B66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -8244,6 +8644,51 @@
 			buildConfigurations = (
 				AC343BF2253DF05100263B66 /* Debug */,
 				AC343BF3253DF05100263B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC343C5F253E662F00263B66 /* Build configuration list for PBXNativeTarget "100标准输入流" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC343C60253E662F00263B66 /* Debug */,
+				AC343C61253E662F00263B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC343CCE253E700200263B66 /* Build configuration list for PBXNativeTarget "101字符输出" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC343CCF253E700200263B66 /* Debug */,
+				AC343CD0253E700200263B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC343D3E253E75D300263B66 /* Build configuration list for PBXNativeTarget "102格式化输出" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC343D3F253E75D300263B66 /* Debug */,
+				AC343D40253E75D300263B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC343DAF253E794600263B66 /* Build configuration list for PBXNativeTarget "103文件读写" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC343DB0253E794600263B66 /* Debug */,
+				AC343DB1253E794600263B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC343E21253E81ED00263B66 /* Build configuration list for PBXNativeTarget "104对二进制文件的读写操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC343E22253E81ED00263B66 /* Debug */,
+				AC343E23253E81ED00263B66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
