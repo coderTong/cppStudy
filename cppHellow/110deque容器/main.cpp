@@ -61,12 +61,22 @@ void test02()
 {
     int arr[] = {1, 3, 8, 9, 2};
     deque<int> d1(arr, arr + sizeof(arr) / sizeof(int) );
+    cout << "-------" << endl;
     printDeque(d1);
     
     
-    deque<int> d2;
+    int arr2[] = {10, 32, 83, 94, 25};
+    deque<int> d2(arr2, arr2 + sizeof(arr2) / sizeof(int) );
+    cout << "-------" << endl;
+    printDeque(d2);
+    
     d2.assign(d1.begin(), d1.end());
+    cout << "-------" << endl;
+    printDeque(d2);
+    
     d2.push_back(100);
+    
+    cout << "-------" << endl;
     printDeque(d2);
     
     cout << "---------" << endl;
@@ -86,6 +96,7 @@ void test02()
 void test03()
 {
     deque<int> d;
+    d.resize(17);
     cout << d.size() << endl;
     
     if ( d.empty() ) {
@@ -115,9 +126,11 @@ void test03()
 void test04()
 {
     deque<int> d;
+    d.resize(4);
     d.push_back(10);
     d.push_front(20);
     printDeque(d);
+    cout << "---------" << endl;
     
     d[0] = 200;
     printDeque(d);
@@ -132,6 +145,7 @@ void test04()
     
     d.at(1) = 100;
     printDeque(d);
+    cout << "---------" << endl;
     
     
     d.pop_back();
@@ -162,24 +176,25 @@ void test05()
     cout << "---------" << endl;
     
     d.insert(d.begin() + 1, 100);
+    
     printDeque(d);
     cout << "---------" << endl;
     
     
     d.insert(d.begin() + 2, 2, 0);
     printDeque(d);
-    cout << "---------" << endl;
+    cout << "3---------" << endl;
     
     deque<int> d2;
     d2.push_back(100);
     d2.push_back(200);
     d2.push_back(300);
     printDeque(d2);
-    cout << "---------" << endl;
+    cout << "d2---------" << endl;
     
     d2.insert(d2.begin() + 1, d.begin(), d.end() );
     printDeque(d2);
-    cout << "---------" << endl;
+    cout << "5---------" << endl;
 }
 
 
@@ -202,7 +217,7 @@ void test06()
     cout << "---------" << endl;
     
     
-    deque<int>::iterator it = d.erase(d.begin() + 1, d.end() - 1);
+    deque<int>::iterator it = d.erase( d.begin() + 1, d.end() - 1 );
     cout << *it << endl;
     printDeque(d);
     cout << "---------" << endl;

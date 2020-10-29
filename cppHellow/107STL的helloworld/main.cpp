@@ -34,9 +34,9 @@ void test01()
     v.push_back(50);
     
     // 获取开始 位置 的迭代器
-    vector<int> ::iterator begin = v.begin();
+    vector<int>::iterator begin = v.begin();
     // 获取结束位置的迭代器
-    vector<int> ::iterator end = v.end();
+    vector<int>::iterator end = v.end();
     
     // 遍历算法
     for_each(begin, end, MyPrint);
@@ -180,7 +180,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
    
-    test04();
+    test02();
     
     return 0;
 }

@@ -25,12 +25,22 @@ public:
     int mScore;
 };
 
+void printDeque(deque<int>que)
+{
+    for (deque<int>::const_iterator it = que.begin(); it != que.end(); it++) {
+        
+        cout << *it << " ";
+    }
+    
+    cout << endl;
+}
+
 // 1. 创建学生
-void createStudent(vector<Student> &vstu)
+void createStudent(vector<Student>& vstu)
 {
     string setName = "ABCDE";
     
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < setName.size(); i++) {
         
         // 创建学生
         Student stu;
@@ -44,8 +54,9 @@ void createStudent(vector<Student> &vstu)
 }
 
 // 2. 评委给 学生 打分
-void setScore( vector<Student> &vstu)
+void setScore( vector<Student>& vstu)
 {
+    // 这玩意让随机数, 更真实些, 让数据不同
     srand( (unsigned int)time(NULL) );
     
     // 遍历学生
@@ -63,6 +74,8 @@ void setScore( vector<Student> &vstu)
         // 排序
         sort(dScore.begin(), dScore.end());
         
+        printDeque(dScore);
+        cout << "========" << endl;
         
         // 去掉最高分
         dScore.pop_back();
@@ -88,11 +101,15 @@ void setScore( vector<Student> &vstu)
 
 bool myComapre(Student &s1, Student &s2)
 {
+    // 小到大
+    // return s1.mScore < s2.mScore;
+    
+    // 大到小
     return s1.mScore > s2.mScore;
 }
 
 // 3. 排名并打印
-void showStudentScore( vector<Student> &vstu)
+void showStudentScore( vector<Student>& vstu )
 {
     sort(vstu.begin(), vstu.end(), myComapre);
     

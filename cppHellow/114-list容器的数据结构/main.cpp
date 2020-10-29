@@ -134,6 +134,7 @@ void test03()
     
     cout << "size: " << myList.size() << endl;
     cout << myList.empty() << endl;
+    cout << "-------" << endl;
     
     if ( myList.empty() ) {
         
@@ -145,6 +146,11 @@ void test03()
     
     myList.resize(3);
     printList(myList);
+    cout << "-------" << endl;
+    
+    
+    list<int> myList2;
+    cout << myList2.empty() << endl;
     cout << "-------" << endl;
     
 }
@@ -165,7 +171,7 @@ void test04()
 {
     list<int> myList;
     // 搞10个 88
-    myList.assign(10, 88);
+    myList.assign(10, 66);
     printList(myList);
     cout << "-------" << endl;
     
@@ -183,6 +189,7 @@ void test04()
     
     myList02.swap(myList);
     printList(myList02);
+    printList(myList);
     cout << "-------" << endl;
 }
 
@@ -223,12 +230,12 @@ void test05()
     
     myList.sort();
     printList(myList);
-    cout << "-------" << endl;
+    cout << "3-------" << endl;
     
     
     myList.sort(myFunc2);
     printList(myList);
-    cout << "-------" << endl;
+    cout << "4-------" << endl;
 }
 
 int main(int argc, const char * argv[]) {

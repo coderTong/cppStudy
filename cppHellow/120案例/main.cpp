@@ -24,12 +24,12 @@ class Woker
 public:
     string name; // 姓名
     int age; // 年龄
-    int salary;
+    int salary;// 工资
 };
 
 // 创建员工
 
-void createWoker( vector<Woker> &vWoker )
+void createWoker( vector<Woker>& vWoker )
 {
     srand( (unsigned int)time(NULL) );
     
@@ -104,7 +104,6 @@ void test()
     
     //保存分组后员工的信息
     multimap<int, Woker> mWokers;
-    
     
     // 创建员工
     createWoker( vWoker );

@@ -70,19 +70,20 @@ struct mapFunc
 
 
 /**
- 这玩意 macOS 编译不过
+ map<int, string, mapFunc> myMap; macOS 编译不过, 不可以改变规则
+ 2020年10月27日00:05:12
  */
 void test02()
 {
-    map<int, string, mapFunc> myMap;
+    map<int, string> myMap;
     
-//    myMap.insert( pair<int, string>(3, "aaa") );
+    myMap.insert( pair<int, string>(3, "aaa") );
 //
-//    myMap.insert( make_pair(6, "bbb") );
-//    myMap.insert( map<int, string>::value_type(2, "ccc") );
-//    myMap[4] = "ddd";
+    myMap.insert( make_pair(6, "bbb") );
+    myMap.insert( map<int, string>::value_type(2, "ccc") );
+    myMap[4] = "ddd";
 //
-//    printMap(myMap);
+    printMap(myMap);
 }
 
 //注意：[]方式插入数据,如果没有实值，那么键值也是存在的

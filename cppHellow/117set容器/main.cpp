@@ -117,13 +117,15 @@ void test03()
     s.insert(18);
     s.insert(28);
     
-    printSet2(s);
     
+    printSet2(s);
+    cout << "--------" << endl;
     
     //注意：set容器不允许有两个相同的元素，但是插入相同的元素，编译不会报错，运算也不报错
     //只是不把数据输入容器
     s.insert(8);
     printSet2(s);
+    cout << "--------" << endl;
     
     pair<set<int, myfunc>::iterator, bool> ret = s.insert(11);
     
@@ -135,10 +137,13 @@ void test03()
         cout << "插入失败" << endl;
     }
     
+    printSet2(s);
+    cout << "--------" << endl;
+    
     s.erase(2);
     s.erase(s.begin());
     printSet2(s);
-    
+    cout << "--------" << endl;
 }
 
 
@@ -181,7 +186,7 @@ void test05()
 {
     
     set<int>s;
-    s.insert(4);
+    s.insert(1);
     s.insert(8);
     s.insert(6);
     s.insert(9);
@@ -211,9 +216,12 @@ void test05()
     
     //返回大于等于2的两个最小的数，如果有2那么就返回2和大于2的最小数
     //返回容器中key与keyElem相等的上下限的两个迭代器。
-    pair<set<int>::iterator, set<int>::iterator> ret = s.equal_range(8);
+    pair<set<int>::iterator, set<int>::iterator> ret = s.equal_range(1);
+    cout << "--------" << endl;
     cout << *(ret.first) << endl;
     cout << *(ret.second) << endl;
+    cout << "--------" << endl;
+    
     
     multiset<int>s1;
     s1.insert(4);

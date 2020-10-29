@@ -34,9 +34,12 @@ void test()
 void test01()
 {
     string s1;
+    // 搞10个a
     string s2(10, 'a');
     string s3(s2);
     string s4("hello");
+    
+    cout << s4 << endl;
 }
 
 /**
@@ -56,14 +59,22 @@ void test02()
     string s1;
     s1 = "hello";
     
-    cout << s1 << endl;
+    cout << "s1: " << s1 << endl;
     
     
     string s2;
     s2.assign(s1);
-    s2.assign("world");
+    cout << "------------" << endl;
+    cout << "s2: " << s2 << endl;
     
-    cout << s2 << endl;
+    s2.assign("world");
+    cout << "------------" << endl;
+    cout << "s2: " << s2 << endl;
+    
+    
+    cout << "------------" << endl;
+    cout << "s2: " << s2 << endl;
+    cout << "s1: " << s1 << endl;
 }
 
 /**
@@ -87,23 +98,23 @@ void test03()
     cout << endl;
     
     for (int i = 0; i < s.size(); i++) {
-        
+
         cout << s.at(i) << " ";
     }
-    
+
     cout << endl;
-    
-    
+
+
     // []和at的区别：[]访问元素时，越界不抛异常，直接挂，at越界，会抛异常
 //    cout << s[100] << endl;
     try {
         // xcode 没崩溃, 但是 啥都不打印
 //        cout << s[100] << endl;
-        
+
         // 这个会报异常
         cout << s.at(100) << endl;
     } catch (out_of_range &ex) {
-        
+
         cout << ex.what() << endl;
         cout << "at 越界" << endl;
     }
@@ -128,11 +139,15 @@ void test04()
     string s1 = "aaa";
     
     s1 += "bbb";
-    s1 += 'c';
-    
+    cout << "-------" << endl;
     cout << s1 << endl;
     
-    s1.append("dddd", 3);
+    s1 += 'c';
+    cout << "-------" << endl;
+    cout << s1 << endl;
+    
+    s1.append("dddd", 5);
+    cout << "-------" << endl;
     cout << s1 << endl;
 }
 
@@ -153,12 +168,13 @@ string& replace(int pos, int n, const char* s); //替换从pos开始的n个字�
 
 void test05()
 {
-    string s = "abcdefgd";
+    string s = "abcdefg";
+    
     
     cout << s.find('d') << endl;
-    
     cout << s.find('d') << endl;
     
+    cout << s.find("kkk") << endl;
     cout << s.find("kkk") << endl;
     
     s.replace(2, 4, "AAA");
@@ -186,18 +202,31 @@ void test06()
     
     const char* str = "world";
     
+    cout << "------" << endl;
     if ( s1.compare(s2) == 0) {
         
         cout << "s1==s2" << endl;
     }
     
+    cout << "------" << endl;
     if ( s2.compare(str) == 0) {
         
         cout << "s2==str" << endl;
     }else{
         
+        cout << s2.compare(str) << endl;
         cout << "s2!=str" << endl;
     }
+    
+    cout << "------" << endl;
+    if ( s2.compare("hello") == 0) {
+        
+        cout << "s2==hello" << endl;
+    }else{
+        
+        cout << "s2!=hello" << endl;
+    }
+    
 }
 
 /**
@@ -270,7 +299,7 @@ void test10()
     char &a = s[2];
     char &b = s[3];
     
-    
+    // 这样也是替换了, 通过引用替换了
     a = 'g';
     b = 'b';
     
@@ -294,6 +323,9 @@ void test10()
 void test11()
 {
     string s = "hello";
+    
+    
+    
     for (string::iterator it = s.begin(); it != s.end(); ++it) {
         
         cout << *it << " ";

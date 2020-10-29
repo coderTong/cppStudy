@@ -48,6 +48,7 @@ void test01()
 
     // 正向遍历
     printVector(v);
+        
     // 反向遍历
     printRvector(v);
     
@@ -68,12 +69,15 @@ void test02()
 {
     vector<int> v;
     v.assign(10, 6);
+    cout << "=========================" << endl;
+    printVector(v);
         
     vector<int> v2;
     v2.push_back(1);
     v2.push_back(2);
     v2.push_back(3);
     
+    cout << "=========================" << endl;
     printVector(v);
     printVector(v2);
     
@@ -101,6 +105,7 @@ void test03()
     // 1.resize 开辟空间, 并初始化
     // 2.reserve 开辟空间, 但不初始化
     vector<int>v2;
+    
     v2.push_back(1);
     v2.push_back(2);
     v2.push_back(3);
@@ -108,10 +113,13 @@ void test03()
     v2.push_back(5);
     v2.push_back(6);
     
-    
+    cout << "=========================" << endl;
     cout << "size: " << v2.size() << endl;
+    
+    
     // 开和出
-    v2.resize(5);
+    v2.resize(4);
+    cout << "=========================" << endl;
     cout << "size: " << v2.size() << endl;
     printVector(v2);
     
@@ -120,10 +128,13 @@ void test03()
     v2.reserve(20);
     v2.push_back(20);
     
+    cout << "=========================" << endl;
     printVector(v2);
     // size: 现在有几个
+    cout << "=========================" << endl;
     cout << "size: " << v2.size() << endl;
     // capacity 可以装几个
+    cout << "=========================" << endl;
     cout << "capacity: " << v2.capacity() << endl;
     
 }
@@ -143,9 +154,9 @@ void test04()
     for (int i = 0; i < v.capacity(); i++) {
         
         v.push_back(i);
-        if (p != &v[0] ) {
+        if (p != &v[i] ) {
             
-            p = &v[0];
+            p = &v[i];
             num++;
         }
     }
@@ -234,16 +245,20 @@ void test07()
         
         v.push_back( i + 1);
     }
-    
+    cout << "v.capacity()" << v.capacity() << endl;
     printVector(v);
     
-    // 从第二个元素, 插入8个100
-    v.insert(v.begin() + 1, 8, 100);
+    // 从第二个元素, 插入3个100
+    v.insert(v.begin() + 1, 3, 100);
     printVector(v);
     
     v.pop_back();
     printVector(v);
-    cout << "------------------------" << endl;
+    cout << "1p------------------------" << endl;
+    
+    v.pop_back();
+    printVector(v);
+    cout << "2p------------------------" << endl;
     
     v.erase( v.begin() );
     printVector(v);
@@ -256,6 +271,7 @@ void test07()
     
     v.clear();
     printVector(v);
+    cout << v.capacity() << endl;
     
     
 }
