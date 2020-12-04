@@ -62,6 +62,8 @@
 		AC9A815E25452A0F001EA930 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9A815D25452A0F001EA930 /* main.cpp */; };
 		AC9A81E725452F38001EA930 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9A81E625452F38001EA930 /* main.cpp */; };
 		AC9A8271254530FF001EA930 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC9A8270254530FF001EA930 /* main.cpp */; };
+		ACA96E0025786D2000517762 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ACA96DFF25786D2000517762 /* main.c */; };
+		ACA96E8D2578FE6300517762 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ACA96E8C2578FE6300517762 /* main.c */; };
 		ACAA70E924D84CD100BE4C58 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACAA70E824D84CD100BE4C58 /* main.cpp */; };
 		ACAA70F424D8F4B300BE4C58 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAA70F324D8F4B300BE4C58 /* main.c */; };
 		ACAA70FF24DCE2DB00BE4C58 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ACAA70FE24DCE2DB00BE4C58 /* main.c */; };
@@ -621,6 +623,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		AC9A826C254530FE001EA930 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ACA96DFB25786D2000517762 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		ACA96E882578FE6300517762 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1417,6 +1437,10 @@
 		AC9A81E625452F38001EA930 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AC9A826E254530FE001EA930 /* 128集合算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "128集合算法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9A8270254530FF001EA930 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ACA96DFD25786D2000517762 /* 131点分十进制转换 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "131点分十进制转换"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA96DFF25786D2000517762 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		ACA96E8A2578FE6300517762 /* 132tcpSocketClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 132tcpSocketClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA96E8C2578FE6300517762 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		ACAA70E624D84CD100BE4C58 /* 4内存管理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4内存管理"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAA70E824D84CD100BE4C58 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ACAA70F124D8F4B300BE4C58 /* 5复合类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5复合类型"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1950,6 +1974,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AC9A826B254530FE001EA930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA96DFA25786D2000517762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA96E872578FE6300517762 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2918,6 +2956,22 @@
 			path = "128集合算法";
 			sourceTree = "<group>";
 		};
+		ACA96DFE25786D2000517762 /* 131点分十进制转换 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA96DFF25786D2000517762 /* main.c */,
+			);
+			path = "131点分十进制转换";
+			sourceTree = "<group>";
+		};
+		ACA96E8B2578FE6300517762 /* 132tcpSocketClient */ = {
+			isa = PBXGroup;
+			children = (
+				ACA96E8C2578FE6300517762 /* main.c */,
+			);
+			path = 132tcpSocketClient;
+			sourceTree = "<group>";
+		};
 		ACAA70E724D84CD100BE4C58 /* 4内存管理 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3640,6 +3694,8 @@
 				AC9A81E525452F38001EA930 /* 127算术生成算法 */,
 				AC9A826F254530FF001EA930 /* 128集合算法 */,
 				ACDD79A325774AEB00C98EEC /* 130网络大小端 */,
+				ACA96DFE25786D2000517762 /* 131点分十进制转换 */,
+				ACA96E8B2578FE6300517762 /* 132tcpSocketClient */,
 				ACF1EA8624CA67DB00AB6E42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -3776,6 +3832,8 @@
 				AC9A81E425452F38001EA930 /* 127算术生成算法 */,
 				AC9A826E254530FE001EA930 /* 128集合算法 */,
 				ACDD79A225774AEA00C98EEC /* 130网络大小端 */,
+				ACA96DFD25786D2000517762 /* 131点分十进制转换 */,
+				ACA96E8A2578FE6300517762 /* 132tcpSocketClient */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -4717,6 +4775,40 @@
 			name = "128集合算法";
 			productName = "128集合算法";
 			productReference = AC9A826E254530FE001EA930 /* 128集合算法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		ACA96DFC25786D2000517762 /* 131点分十进制转换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA96E0325786D2100517762 /* Build configuration list for PBXNativeTarget "131点分十进制转换" */;
+			buildPhases = (
+				ACA96DF925786D2000517762 /* Sources */,
+				ACA96DFA25786D2000517762 /* Frameworks */,
+				ACA96DFB25786D2000517762 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "131点分十进制转换";
+			productName = "131点分十进制转换";
+			productReference = ACA96DFD25786D2000517762 /* 131点分十进制转换 */;
+			productType = "com.apple.product-type.tool";
+		};
+		ACA96E892578FE6300517762 /* 132tcpSocketClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA96E8E2578FE6300517762 /* Build configuration list for PBXNativeTarget "132tcpSocketClient" */;
+			buildPhases = (
+				ACA96E862578FE6300517762 /* Sources */,
+				ACA96E872578FE6300517762 /* Frameworks */,
+				ACA96E882578FE6300517762 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 132tcpSocketClient;
+			productName = 132tcpSocketClient;
+			productReference = ACA96E8A2578FE6300517762 /* 132tcpSocketClient */;
 			productType = "com.apple.product-type.tool";
 		};
 		ACAA70E524D84CD100BE4C58 /* 4内存管理 */ = {
@@ -6165,6 +6257,12 @@
 					AC9A826D254530FE001EA930 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					ACA96DFC25786D2000517762 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					ACA96E892578FE6300517762 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					ACAA70E524D84CD100BE4C58 = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -6534,6 +6632,8 @@
 				AC9A81E325452F38001EA930 /* 127算术生成算法 */,
 				AC9A826D254530FE001EA930 /* 128集合算法 */,
 				ACDD79A125774AEA00C98EEC /* 130网络大小端 */,
+				ACA96DFC25786D2000517762 /* 131点分十进制转换 */,
+				ACA96E892578FE6300517762 /* 132tcpSocketClient */,
 			);
 		};
 /* End PBXProject section */
@@ -6969,6 +7069,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC9A8271254530FF001EA930 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA96DF925786D2000517762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA96E0025786D2000517762 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA96E862578FE6300517762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA96E8D2578FE6300517762 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8740,6 +8856,54 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UCS53FT3U9;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACA96E0125786D2100517762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACA96E0225786D2100517762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACA96E8F2578FE6300517762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACA96E902578FE6300517762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -10916,6 +11080,24 @@
 			buildConfigurations = (
 				AC9A8273254530FF001EA930 /* Debug */,
 				AC9A8274254530FF001EA930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA96E0325786D2100517762 /* Build configuration list for PBXNativeTarget "131点分十进制转换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA96E0125786D2100517762 /* Debug */,
+				ACA96E0225786D2100517762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA96E8E2578FE6300517762 /* Build configuration list for PBXNativeTarget "132tcpSocketClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA96E8F2578FE6300517762 /* Debug */,
+				ACA96E902578FE6300517762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
