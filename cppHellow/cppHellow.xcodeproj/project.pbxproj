@@ -41,6 +41,7 @@
 		AC343E20253E81ED00263B66 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC343E1F253E81ED00263B66 /* main.cpp */; };
 		AC343E93253EBD6D00263B66 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC343E92253EBD6D00263B66 /* main.cpp */; };
 		AC343F07253EC3C400263B66 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC343F06253EC3C400263B66 /* main.cpp */; };
+		AC427296257A27F100AC5FBF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AC427295257A27F100AC5FBF /* main.c */; };
 		AC55DAE124D6C030001D028E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC55DAE024D6C030001D028E /* main.cpp */; };
 		AC567D0A25410FAC009EF2FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC567D0925410FAC009EF2FB /* main.cpp */; };
 		AC567D8225412935009EF2FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC567D8125412935009EF2FB /* main.cpp */; };
@@ -434,6 +435,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		AC343F02253EC3C400263B66 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC427291257A27F100AC5FBF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1395,6 +1405,8 @@
 		AC343E92253EBD6D00263B66 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AC343F04253EC3C400263B66 /* 106二进制文件读写 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "106二进制文件读写"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC343F06253EC3C400263B66 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC427293257A27F100AC5FBF /* 133TCPServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 133TCPServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC427295257A27F100AC5FBF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AC55DADE24D6C030001D028E /* pointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pointer; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC55DAE024D6C030001D028E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AC567D0725410FAC009EF2FB /* 109vector容器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "109vector容器"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1827,6 +1839,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AC343F01253EC3C400263B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC427290257A27F100AC5FBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2788,6 +2807,14 @@
 			path = "106二进制文件读写";
 			sourceTree = "<group>";
 		};
+		AC427294257A27F100AC5FBF /* 133TCPServer */ = {
+			isa = PBXGroup;
+			children = (
+				AC427295257A27F100AC5FBF /* main.c */,
+			);
+			path = 133TCPServer;
+			sourceTree = "<group>";
+		};
 		AC55DADF24D6C030001D028E /* pointer */ = {
 			isa = PBXGroup;
 			children = (
@@ -3696,6 +3723,7 @@
 				ACDD79A325774AEB00C98EEC /* 130网络大小端 */,
 				ACA96DFE25786D2000517762 /* 131点分十进制转换 */,
 				ACA96E8B2578FE6300517762 /* 132tcpSocketClient */,
+				AC427294257A27F100AC5FBF /* 133TCPServer */,
 				ACF1EA8624CA67DB00AB6E42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -3834,6 +3862,7 @@
 				ACDD79A225774AEA00C98EEC /* 130网络大小端 */,
 				ACA96DFD25786D2000517762 /* 131点分十进制转换 */,
 				ACA96E8A2578FE6300517762 /* 132tcpSocketClient */,
+				AC427293257A27F100AC5FBF /* 133TCPServer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -4418,6 +4447,23 @@
 			name = "106二进制文件读写";
 			productName = "106二进制文件读写";
 			productReference = AC343F04253EC3C400263B66 /* 106二进制文件读写 */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC427292257A27F100AC5FBF /* 133TCPServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC427299257A27F100AC5FBF /* Build configuration list for PBXNativeTarget "133TCPServer" */;
+			buildPhases = (
+				AC42728F257A27F100AC5FBF /* Sources */,
+				AC427290257A27F100AC5FBF /* Frameworks */,
+				AC427291257A27F100AC5FBF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 133TCPServer;
+			productName = 133TCPServer;
+			productReference = AC427293257A27F100AC5FBF /* 133TCPServer */;
 			productType = "com.apple.product-type.tool";
 		};
 		AC55DADD24D6C030001D028E /* pointer */ = {
@@ -6194,6 +6240,9 @@
 					AC343F03253EC3C400263B66 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					AC427292257A27F100AC5FBF = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					AC55DADD24D6C030001D028E = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -6634,6 +6683,7 @@
 				ACDD79A125774AEA00C98EEC /* 130网络大小端 */,
 				ACA96DFC25786D2000517762 /* 131点分十进制转换 */,
 				ACA96E892578FE6300517762 /* 132tcpSocketClient */,
+				AC427292257A27F100AC5FBF /* 133TCPServer */,
 			);
 		};
 /* End PBXProject section */
@@ -6901,6 +6951,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC343F07253EC3C400263B66 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC42728F257A27F100AC5FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC427296257A27F100AC5FBF /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8396,6 +8454,30 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UCS53FT3U9;
 				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC427297257A27F100AC5FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC427298257A27F100AC5FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCS53FT3U9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -10891,6 +10973,15 @@
 			buildConfigurations = (
 				AC343F09253EC3C400263B66 /* Debug */,
 				AC343F0A253EC3C400263B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC427299257A27F100AC5FBF /* Build configuration list for PBXNativeTarget "133TCPServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC427297257A27F100AC5FBF /* Debug */,
+				AC427298257A27F100AC5FBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
